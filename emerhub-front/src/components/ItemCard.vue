@@ -6,7 +6,7 @@
                 :img-alt="alt"
                 img-top
                 tag="article"
-                :style="style ? style : 'max-width: 20rem;'"
+                :style="styleCard ? styleCard : 'max-width: 20rem;'"
                 :class="`mb-2 `+classCard"
         >
             <b-card-text>
@@ -30,7 +30,7 @@
             alt: null,
             bodyText: null,
             onPress: null,
-            style: null,
+            styleCard: null,
             btnTitle: null,
             btnType: null,
             classCard: null,
